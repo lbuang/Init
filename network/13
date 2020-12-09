@@ -1,0 +1,4 @@
+#!/bin/bash
+
+host 10.51.1.253
+--the DNS server--

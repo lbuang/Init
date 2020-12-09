@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/etc/hosts  is the file that contains local DNS servers
