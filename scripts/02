@@ -1,0 +1,14 @@
+# !/bin/bash
+
+# https://www.godaddy.com/help/remove-a-linux-user-19158
+
+# NAME
+#       userdel - delete user account and related files
+#
+# SYNOPSIS
+#       userdel [options] LOGIN
+#
+# DESCRIPTION
+#       userdel is a low level utility for removing users.
+
+userdel -r $1
