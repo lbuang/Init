@@ -1,0 +1,20 @@
+#https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work
+
+#https://unix.stackexchange.com/questions/398598/make-new-user-able-to-login-via-ssh
+
+A) Switch Users Graphical Session:
+
+	- Press the most top right down facing arrow icon (in the very top right corner)
+	- Then under 'Wired Connected', press the name of the current user
+	- Then within the options that pop down, press 'Switch User'
+	- Then once out of the current session, select different user, enter password
+	  in the password box and finally press 'Sign in' (or 'Unlock' (or 'Enter'))
+
+B) Switch User SSH Session:
+
+	- Logout of current session if already in one, using the 'Logout' command;
+	  (else skip this step if not already in a session)
+	- Type in the following command: 'ssh <username>@<ipaddress> -p <port_number>'
+	  in the terminal; (and you should be in the user's account).
+
+PS: by changing the <username> field you basically switch user.

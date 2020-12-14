@@ -1,0 +1,3 @@
+# To list all existing users on a Virtual Machine, use:
+
+cat /etc/passwd | cut -d':' -f1

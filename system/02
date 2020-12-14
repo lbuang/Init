@@ -1,0 +1,3 @@
+#root 
+#hostname 'ABC'
+hostname new_name

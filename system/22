@@ -1,0 +1,3 @@
+# https://askubuntu.com/questions/985296/how-can-i-add-a-user-and-set-the-password-for-them-at-the-same-time
+
+adduser $1

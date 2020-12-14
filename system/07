@@ -1,0 +1,3 @@
+# To obtain the PID (process ID) of the SSHD Service type the following:
+
+service sshd status | grep -e 'PID'

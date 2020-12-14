@@ -1,0 +1,3 @@
+#to displays the available space(memory) used and left on the system in an humanly understandable way:
+
+df -h
